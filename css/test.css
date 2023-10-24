@@ -16,6 +16,16 @@ body {
 a {
     color: rebeccapurple;
     font-weight: 700;
+}
+.header {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+a {
+    color: rebeccapurple;
+    font-style: 700;
     text-decoration: none;
 }
 .logo {
@@ -28,6 +38,10 @@ a {
     color: lightgreen;
     background-color: rebeccapurple;
     font-weight: 700;
+    text-decoration: none;
+    color: lightgreen;
+    background-color: rebeccapurple;
+    font-style: 700;
 }
 ul {
     display: flex;
@@ -54,6 +68,8 @@ ul > li {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+    border-right: 1px solid #000;
+    padding-right: 20px;
 }
 .post {
     padding-bottom: 20px;
