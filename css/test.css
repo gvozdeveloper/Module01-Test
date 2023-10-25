@@ -16,6 +16,7 @@ body {
 a {
     color: rebeccapurple;
     font-weight: 700;
+    text-decoration: none;
 }
 .header {
     display: flex;
@@ -23,11 +24,7 @@ a {
     padding-bottom: 10px;
     font-size: 20px;
 }
-a {
-    color: rebeccapurple;
-    font-style: 700;
-    text-decoration: none;
-}
+
 .logo {
     margin-right: 50px;
     padding-top: 5px;
